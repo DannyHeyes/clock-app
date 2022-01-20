@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+<div class="wrapper">
+  
+<header id="header">
+  <p class="quote" id="quote"></p> 
+  <h6 id="author"></h6>
+</header>
+
+<main id="main">
+  <div class="greeting-div">
+    <img id="greeting-icon" class="greeting-icon" src="./assets/desktop/icon-sun.svg" alt="">
+    <p id="greeting" class="greeting-text">
+      good morning
+    </p>
+    <span class="greeting-span">, it's currently</span>
+  </div>
+
+  <div class="time-div">
+    <h1 id="time"></h1>
+    <h2 id="abbrev"></h2>
+  </div>
+
+  <p id="location" class="location"></p>
+  
+  <button id="btn" class="btn">
+    <p id="btn-text" class="btn-text">
+      more
+    </p>
+    <img id="btn-img" class="btn-img" src="./assets/desktop/icon-arrow-up.svg" alt="arrow-up icon">
+  </button>
+</main>
+
+<section id="pop">
+  <article class="cell">
+    <p class="key">
+      current timezone
+    </p>
+    <p class="value" id="timezone"></p>
+  </article>
+  <article class="cell">
+    <p class="key">
+      day of the year
+    </p>
+    <p class="value" id="day-of-year"></p>
+  </article>
+  <article class="cell">
+    <p class="key">
+      day of the week
+    </p>
+    <p class="value" id="day-of-week"></p>
+  </article>
+  <article class="cell">
+    <p class="key">
+      week number
+    </p>
+    <p class="value" id="week-number"></p>
+  </article>
+</section>
+
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
