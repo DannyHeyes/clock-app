@@ -26,7 +26,7 @@ printIP();
 
 // Setting Information based on returned IP 
 
-const locationData = fetch("http://worldtimeapi.org/api/ip")
+const locationData = fetch("https://worldtimeapi.org/api/ip")
     .then((response) => response.json())
     .then ((response) => {
         return response;
